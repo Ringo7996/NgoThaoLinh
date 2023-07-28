@@ -1,10 +1,10 @@
 package com.example.ngothaolinh.service;
 
-import com.example.demo.exception.ForbiddenException;
-import com.example.demo.exception.NotFoundException;
-import com.example.demo.model.entity.Pet;
-import com.example.demo.model.entity.User;
-import com.example.demo.repository.PetRepository;
+import com.example.ngothaolinh.exception.ForbiddenException;
+import com.example.ngothaolinh.exception.NotFoundException;
+import com.example.ngothaolinh.model.entity.Pet;
+import com.example.ngothaolinh.model.entity.User;
+import com.example.ngothaolinh.repository.PetRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -23,7 +23,7 @@ public class PetServiceImp implements PetService {
     @Override
     public Pet getOnePet(Integer petId, User loginUser) {
         Pet pet = findById(petId);
-        if (loginUser.getAuthorities().contains("ROLE_ADMIN") || loginUser.getAuthorities().contains("ROLE_STAFF")) {
+        if (loginUser.getAuthorities().contains("ROLE_ROOT_ADMIN") || loginUser.getAuthorities().contains("ROLE_HOTEL_STAFF")) {
             return pet;
         }
 

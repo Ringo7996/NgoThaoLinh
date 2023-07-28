@@ -2,7 +2,6 @@ package com.example.ngothaolinh.model.request;
 
 
 import com.example.ngothaolinh.model.entity.Pet;
-import jakarta.persistence.Column;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;

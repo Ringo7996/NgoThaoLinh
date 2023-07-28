@@ -1,7 +1,8 @@
 package com.example.ngothaolinh.service;
 
-import com.example.demo.model.entity.Pet;
-import com.example.demo.model.entity.User;
+
+import com.example.ngothaolinh.model.entity.Pet;
+import com.example.ngothaolinh.model.entity.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

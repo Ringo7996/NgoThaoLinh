@@ -1,9 +1,10 @@
 package com.example.ngothaolinh.model.roombooking;
 
-import com.example.demo.model.entity.PaymentType;
-import com.example.demo.model.entity.Pet;
-import com.example.demo.model.enums.Status;
-import com.example.demo.model.entity.User;
+
+import com.example.ngothaolinh.model.entity.PaymentType;
+import com.example.ngothaolinh.model.entity.Pet;
+import com.example.ngothaolinh.model.entity.User;
+import com.example.ngothaolinh.model.enums.Status;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;

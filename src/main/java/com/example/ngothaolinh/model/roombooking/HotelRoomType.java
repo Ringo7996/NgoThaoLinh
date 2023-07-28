@@ -1,6 +1,7 @@
 package com.example.ngothaolinh.model.roombooking;
 
-import com.example.demo.model.entity.Hotel;
+
+import com.example.ngothaolinh.model.entity.Hotel;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;

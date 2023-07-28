@@ -1,6 +1,7 @@
 package com.example.ngothaolinh.model.spabooking;
 
-import com.example.demo.model.enums.Schedule;
+
+import com.example.ngothaolinh.model.enums.Schedule;
 import jakarta.persistence.*;
 import lombok.*;
 

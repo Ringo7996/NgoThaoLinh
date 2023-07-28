@@ -1,6 +1,7 @@
 package com.example.ngothaolinh.service;
 
-import com.example.demo.model.entity.Image;
+
+import com.example.ngothaolinh.model.entity.Image;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

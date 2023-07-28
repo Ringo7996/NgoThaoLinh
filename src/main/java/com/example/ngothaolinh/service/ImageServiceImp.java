@@ -1,9 +1,9 @@
 package com.example.ngothaolinh.service;
 
-import com.example.demo.model.entity.Image;
-import com.example.demo.model.entity.User;
-import com.example.demo.repository.ImageRepository;
-import com.example.demo.repository.UserRepository;
+import com.example.ngothaolinh.model.entity.Image;
+import com.example.ngothaolinh.model.entity.User;
+import com.example.ngothaolinh.repository.ImageRepository;
+import com.example.ngothaolinh.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

@@ -1,6 +1,7 @@
 package com.example.ngothaolinh.model.spabooking;
 
-import com.example.demo.model.entity.Hotel;
+
+import com.example.ngothaolinh.model.entity.Hotel;
 import jakarta.persistence.*;
 import lombok.*;
 

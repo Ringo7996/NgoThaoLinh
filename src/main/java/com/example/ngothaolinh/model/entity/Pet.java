@@ -1,9 +1,10 @@
 package com.example.ngothaolinh.model.entity;
 
 
-
 import com.example.ngothaolinh.model.enums.Sex;
 import com.example.ngothaolinh.model.roombooking.RoomBooking;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 

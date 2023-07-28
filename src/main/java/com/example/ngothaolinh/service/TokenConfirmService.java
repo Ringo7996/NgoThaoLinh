@@ -1,7 +1,8 @@
 package com.example.ngothaolinh.service;
 
-import com.example.demo.model.entity.TokenConfirm;
-import com.example.demo.repository.TokenConfirmRepository;
+
+import com.example.ngothaolinh.model.entity.TokenConfirm;
+import com.example.ngothaolinh.repository.TokenConfirmRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;

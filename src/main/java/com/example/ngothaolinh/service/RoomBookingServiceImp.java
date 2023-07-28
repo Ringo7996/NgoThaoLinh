@@ -1,12 +1,12 @@
 package com.example.ngothaolinh.service;
 
-import com.example.demo.exception.ForbiddenException;
-import com.example.demo.exception.NotFoundException;
-import com.example.demo.model.entity.Pet;
-import com.example.demo.model.entity.User;
-import com.example.demo.model.request.CreateRoomBookingRequest;
-import com.example.demo.model.roombooking.RoomBooking;
-import com.example.demo.repository.RoomBookingRepository;
+import com.example.ngothaolinh.exception.ForbiddenException;
+import com.example.ngothaolinh.exception.NotFoundException;
+import com.example.ngothaolinh.model.entity.Pet;
+import com.example.ngothaolinh.model.entity.User;
+import com.example.ngothaolinh.model.request.CreateRoomBookingRequest;
+import com.example.ngothaolinh.model.roombooking.RoomBooking;
+import com.example.ngothaolinh.repository.RoomBookingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

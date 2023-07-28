@@ -1,9 +1,10 @@
 package com.example.ngothaolinh.model.spabooking;
 
-import com.example.demo.model.entity.PaymentType;
-import com.example.demo.model.entity.Pet;
-import com.example.demo.model.entity.User;
-import com.example.demo.model.enums.Status;
+
+import com.example.ngothaolinh.model.entity.PaymentType;
+import com.example.ngothaolinh.model.entity.Pet;
+import com.example.ngothaolinh.model.entity.User;
+import com.example.ngothaolinh.model.enums.Status;
 import jakarta.persistence.*;
 import lombok.*;
 

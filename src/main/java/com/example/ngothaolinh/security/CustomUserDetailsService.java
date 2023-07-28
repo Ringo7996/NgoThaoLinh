@@ -1,6 +1,7 @@
 package com.example.ngothaolinh.security;
 
-import com.example.demo.repository.UserRepository;
+
+import com.example.ngothaolinh.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

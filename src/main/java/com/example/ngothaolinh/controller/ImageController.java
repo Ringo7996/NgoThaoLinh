@@ -1,12 +1,11 @@
 package com.example.ngothaolinh.controller;
 
-import com.example.demo.model.entity.Image;
-import com.example.demo.model.entity.User;
-import com.example.demo.security.AuthenticationFacade;
-import com.example.demo.service.ImageService;
-import com.example.demo.service.PetService;
-import com.example.demo.service.RoomBookingService;
-import com.example.demo.service.UserService;
+
+import com.example.ngothaolinh.model.entity.Image;
+import com.example.ngothaolinh.model.entity.User;
+import com.example.ngothaolinh.security.AuthenticationFacade;
+import com.example.ngothaolinh.service.ImageService;
+import com.example.ngothaolinh.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
